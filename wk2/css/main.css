@@ -1,0 +1,229 @@
+body {
+	font-family: "Lucida Sans", sans-serif;
+	font-size: 100%;
+	background: #e6e6e6;
+}
+
+form {
+	font-size: 0.920em;
+}
+
+#wrapper {
+	width: 960px;
+	margin:0 auto;
+}
+
+h3 {
+	padding: 0px 0px 5px 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+header {
+	height: 60px;
+	width: 100%;
+	background-color: #010101;
+	color: #dc9609;
+	margin-bottom: 40px;
+}
+
+header a, a:visited {
+	color: #dc9609;
+	text-decoration: none;
+	font-size: 1.75em;
+	float: right;
+	padding: 10px 5px 5px 0;
+}
+
+header img {
+	float: left;
+	padding: 5px;
+}
+
+
+
+#mainBox {
+	width: 600px;
+	height: 420px;
+	background-color: #c8b29b;
+	margin-left: 19px;
+	margin-bottom: 40px;
+	border: 1px solid black;
+	position: absolute;
+}
+
+
+#joinBox {
+	width: 290px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 640px;
+	padding: 0px 9px 0 9px;
+	background-color: #c8b29b;
+	border: 1px solid black;
+}
+
+#loginBox {
+	width: 290px;
+	height: 200px;
+	margin-right: 20px;
+	margin-left: 640px;
+	margin-top: 18px;
+	background-color: #c8b29b;
+	float: left;	
+	padding: 0 10px 0 10px;
+	border: 1px solid black;
+}
+
+.joinInput {
+	width: 270px;
+}
+
+
+
+
+/*testimonial boxes  */
+#bottomBox {
+	width: 960px;
+	clear: both;
+	padding-top: 40px;
+	
+}
+
+
+#box1 {
+	width: 277px;
+	height: 220px;
+	background-color: #c8b29b;
+	border: 1px solid black;
+	padding: 9px;
+	margin-left: 20px;	
+	float: left;
+	position: relative;
+}
+
+#box2 {
+	width: 277px;
+	height: 220px;
+	background-color: #c8b29b;
+	border: 1px solid black;
+	margin-left: 20px;
+	padding: 9px;
+	float:left;
+	
+	
+}
+
+#box3 {
+	width: 277px;
+	height: 220px;
+	background-color: #c8b29b;
+	border: 1px solid black;
+	margin-left: 20px;
+	padding: 9px;
+	float: left;
+}
+
+footer {
+	width: 960px;
+	height: 60px;
+	background-color: black;
+	color: #dc9609;
+	margin-top: 280px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+/* li img resize */
+
+/*
+#task table tr td, img {
+	height: 25%;
+	width: 25%;
+}
+*/
+
+#mainBoxTask {
+	width: 600px;
+	min-height: 400px;
+	background-color: #c8b29b;
+	margin-left: 19px;
+	margin-bottom: 40px;
+	border: 1px solid black;
+	position: absolute;
+}
+
+/* projects */
+.boxes tr>td {
+	border: 1px solid black;
+	background:-webkit-linear-gradient(#d9d7d7 0%, #ffffff 100%);
+	
+}
+
+/* key box */
+#keyBox {
+	width: 270px;
+	height: 430px;
+	float: left;
+	margin-left: 670px;
+	background-color: #c8b29b;
+	padding-top: 10px;
+	border: 1px solid black;
+}
+
+#keyBox img {
+	height: 40%;
+	width: 40%;
+}
+
+#keyBox a, a:hover {
+	text-decoration: none;
+	color: #dc9609;
+
+}
+
+#keyBox table {
+	margin: 10px auto;
+	padding-top: 12px;
+}
+
+#keyBox table, td{
+	padding: 10px;
+}
+
+#addButton {
+	width: 120px;
+	height: 20px;
+	background-color: lightgrey;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	margin:0 auto;
+}
+
+#addButton:hover {
+	background-color: grey;
+}
+
+
+
+
+/*add form */
+
+
+
+
+
+
+
+
+
+
+
+
+

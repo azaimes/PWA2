@@ -1,0 +1,5 @@
+/* projects */
+.boxes td, tr {
+	border: 1px solid black;
+	background:-webkit-linear-gradient(#d9d7d7 0%, #ffffff 100%);
+}
