@@ -1,0 +1,97 @@
+<!-- 
+	Put the skeleton HTML for your Landing page here
+	DO NOT include <html>, <head>, or <body> tags
+	
+	(don't remove the parent div)
+-->
+
+<div>
+	<script type="text/template" id="template_landing">
+	
+		<!-- core landing page html -->
+
+	<div id="wrapper">
+		<header>
+			<img src="images/GTM_logo.png" />
+		</header>
+		
+				<div id="mainBox">
+			
+			<img src="images/cta.jpg" />
+			
+		</div>
+		<!--- registration box --->
+		<div id="joinBox">
+			<h3>Join Today For Free</h3>
+			<form id="template_register">
+				<label>Email:</label><br/>
+				<input type="email" placeholder="user@example.com" id="emailReg" class="joinInput" required /><br/>
+				<label>Username:</label><br/>
+				<input type="text" placeholder="Username" id="userReg" class="joinInput" required /><br>
+				<label>Password:</label><br/>
+				<input type="password" placeholder="*****" id="pwdReg" class="joinInput" required /> <br/><br/>
+				<button type="submit" id="joinButton" class="submitButton">Join</button>
+			</form>
+		</div>
+		
+		<!--- login box --->
+					
+		<div id="loginBox">
+			<h3>Login</h3>
+			<form>
+				<label>Username</label><br>
+				<input type="text" placeholder="Username" id="user" class="joinInput" required /><br/>
+				<label>Password</label><br/>
+				<input type="password" placeholder="******" id="pwd" class="joinInput" required /><br/><br/>
+				<button type="submit" id="login_btn">Login</button>
+			</form>
+		</div>
+				
+		<!--- 3 boxes at below cta --->
+		
+		<div id="bottomBox">
+			<div id="box1">
+				<p>&quot; GTM is a great way to keep track of all my projects and associated task!&quot;<br>
+					&nbsp; &mdash; Gomer Pyle </p>
+			</div>
+			
+			<div id="box2">
+				<ul>
+					<li>Free to use</li>
+					<li>Simple interface</li>
+					<li>Track projects</li>
+					<li>Add task</li>
+					<li>Set priorities</li>
+				</ul>
+			</div>
+			
+			<div id="box3">
+				<p>&quot; Your application is super easy to use. I like it so much I use it for managing my time outside of work! &quot;
+					<br> &nbsp; &mdash; Thomas A. Anderson
+				</p>
+			</div>
+		</div>
+
+				
+		
+		<footer>
+		<div id="social">
+		<img src="images/twitter.png" height="30px" width="30px"/>
+		<img src="images/facebook.png"  height="30px" width="30px" />
+		<img src="images/google.png"  height="30px" width="30px" />
+		</div>
+		&copy; Goblin Enterprises
+		</footer>
+			<!----- error message ---->
+		
+		<div style="display:none" id="errorMSG">
+			<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span><div/></p>
+		</div>
+		<!--- end error --->
+		
+	
+				
+	</div>
+	
+	</script>
+</div>
